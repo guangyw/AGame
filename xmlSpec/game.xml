@@ -1,0 +1,218 @@
+<?xml version = "1.0"?>
+<GameData>
+
+<view>
+  <viewWidth>1280</viewWidth>
+  <viewHeight>960</viewHeight>
+</view>
+
+<world>
+  <worldWidth>2280</worldWidth>
+  <worldHeight>960</worldHeight>
+</world>
+
+<screenTitle>Tracking a Particular Object</screenTitle>
+
+<back>
+  <backFile>images/bg.png</backFile>
+  <backRed>193</backRed>
+  <backGreen>205</backGreen>
+  <backBlue>205</backBlue>
+  <backFactor>1</backFactor>
+  <backSrcX>700</backSrcX>
+  <backSrcY>0</backSrcY>
+  <backWidth>5000</backWidth>
+  <backHeight>515</backHeight>
+  <backTransparency>true</backTransparency>
+</back>
+
+<sky>
+  <skyFile>images/skyext.bmp</skyFile>
+  <skyFactor>3</skyFactor>
+  <skySrcX>0</skySrcX>
+  <skySrcY>0</skySrcY>
+  <skyWidth>1280</skyWidth>
+  <skyHeight>960</skyHeight>
+  <skyTransparency>false</skyTransparency>
+</sky>
+
+<sea>
+  <seaFile>images/sea2.bmp</seaFile>
+  <seaFactor>2</seaFactor>
+  <seaSrcX>0</seaSrcX>
+  <seaSrcY>0</seaSrcY>
+  <seaWidth>1280</seaWidth>
+  <seaHeight>960</seaHeight>
+  <seaTransparency>false</seaTransparency>
+</sea>
+
+<sand>
+  <sandFile>images/sand.bmp</sandFile>
+  <sandFactor>1</sandFactor>
+  <sandSrcX>0</sandSrcX>
+  <sandSrcY>0</sandSrcY>
+  <sandWidth>1280</sandWidth>
+  <sandHeight>960</sandHeight>
+  <sandTransparency>false</sandTransparency>
+</sand>
+
+<font name="font">
+  <fontFile>font/dyslexic-bold.otf</fontFile>
+  <fontSize>14</fontSize>
+  <fontRed>139</fontRed>
+  <fontGreen>0</fontGreen>
+  <fontBlue>0</fontBlue>
+  <fontUnused>0</fontUnused>
+</font>
+<maxStringSize>50</maxStringSize>
+
+<alligator>
+   <alligatorFile>images/alligatorsTwoWaySm.bmp</alligatorFile>
+   <alligatorLoc alligatorX="0" alligatorY="270"/>
+
+   <alligatorFrames>8</alligatorFrames>
+   <alligatorFrameInterval>100</alligatorFrameInterval>
+   <alligatorChunks>25</alligatorChunks>
+
+   <alligatorSrcX>0</alligatorSrcX>
+   <alligatorSrcY>0</alligatorSrcY>
+   <alligatorWidth>200</alligatorWidth>
+   <alligatorHeight>136</alligatorHeight>
+   <alligatorSpeedX>0</alligatorSpeedX>
+   <alligatorSpeedY>0</alligatorSpeedY>
+   <alligatorSpeed>200</alligatorSpeed>
+   <alligatorTransparency>true</alligatorTransparency>
+   <numAlligator>1</numAlligator>
+</alligator>
+
+<femalealligator>
+   <femalealligatorFile>images/femalePlayer.bmp</femalealligatorFile>
+   <femalealligatorLoc femalealligatorX="1100" femalealligatorY="240"/>
+
+   <femalealligatorFrames>8</femalealligatorFrames>
+   <femalealligatorFrameInterval>100</femalealligatorFrameInterval>
+   <femalealligatorChunks>25</femalealligatorChunks>
+
+   <femalealligatorSrcX>0</femalealligatorSrcX>
+   <femalealligatorSrcY>0</femalealligatorSrcY>
+   <femalealligatorWidth>150</femalealligatorWidth>
+   <femalealligatorHeight>98</femalealligatorHeight>
+   <femalealligatorSpeedX>0</femalealligatorSpeedX>
+   <femalealligatorSpeedY>0</femalealligatorSpeedY>
+   <femalealligatorSpeed>200</femalealligatorSpeed>
+   <femalealligatorTransparency>true</femalealligatorTransparency>
+   <numAlligator>1</numAlligator>
+</femalealligator>
+
+<bullet>
+  <bulletFile>images/waterball.bmp</bulletFile>
+  <bulletSrcX>0</bulletSrcX>
+  <bulletSrcY>0</bulletSrcY>
+  <bulletWidth>32</bulletWidth>
+  <bulletHeight>32</bulletHeight>
+  <bulletLoc bulletX="760" bulletY="550"/>
+  <bulletSpeed bulletSpeedX="200" bulletSpeedY="0"/>
+  <bulletTransparency>true</bulletTransparency>
+  <bulletRandom>false</bulletRandom>
+</bullet>
+
+
+<flash>
+  <flashFile>images/flashes.bmp</flashFile>
+  <flashSrcX>0</flashSrcX>
+  <flashSrcY>0</flashSrcY>
+  <flashWidth>42</flashWidth>
+  <flashHeight>80</flashHeight>
+  <flashFrames>5</flashFrames>
+  <flashFrameInterval>50</flashFrameInterval>
+
+  <flashLoc flashX="760" flashY="550"/>
+  <flashSpeed flashSpeedX="0" flashSpeedY="0"/>
+  <flashTransparency>true</flashTransparency>
+  <flashRandom>true</flashRandom>
+  <flashFrequency>100</flashFrequency>
+</flash>
+
+<crab>
+   <crabFile>images/crab.bmp</crabFile>
+   <crabSrcX>0</crabSrcX>
+   <crabSrcY>0</crabSrcY>
+   <crabWidth>120</crabWidth>
+   <crabHeight>72</crabHeight>
+   <crabFrames>3</crabFrames>
+   <crabFrameInterval>50</crabFrameInterval>
+   <crabLoc crabX="1280" crabY="480"/>
+   <crabSpeed crabSpeedX="-150" crabSpeedY="0" />
+   <crabTransparency>true</crabTransparency>
+   <crabFrequency>3000</crabFrequency>
+</crab>
+
+<blueJet>
+   <blueJetFile>images/bluejet.bmp</blueJetFile>
+   <blueJetSrcX>0</blueJetSrcX>
+   <blueJetSrcY>0</blueJetSrcY>
+   <blueJetWidth>162</blueJetWidth>
+   <blueJetHeight>114</blueJetHeight>
+   <blueJetFrames>3</blueJetFrames>
+   <blueJetFrameInterval>100</blueJetFrameInterval>
+   <blueJetLoc blueJetX="1280" blueJetY="480"/>
+   <blueJetSpeed blueJetSpeedX="-100" blueJetSpeedY="0" />
+   <blueJetTransparency>true</blueJetTransparency>
+   <blueJetFrequency>4000</blueJetFrequency>
+</blueJet>
+
+<largecrab>
+   <largecrabFile>images/largeCrab.bmp</largecrabFile>
+   <largecrabSrcX>0</largecrabSrcX>
+   <largecrabSrcY>0</largecrabSrcY>
+   <largecrabWidth>163</largecrabWidth>
+   <largecrabHeight>118</largecrabHeight>
+   <largecrabFrames>3</largecrabFrames>
+   <largecrabFrameInterval>50</largecrabFrameInterval>
+   <largecrabLoc largecrabX="1280" largecrabY="480"/>
+   <largecrabSpeed largecrabSpeedX="-100" largecrabSpeedY="0" />
+   <largecrabTransparency>true</largecrabTransparency>
+   <largecrabFrequency>500</largecrabFrequency>
+</largecrab>
+
+<hud>
+   <hudStartX>5</hudStartX>
+   <hudStartY>5</hudStartY>
+   <hudLen>265</hudLen>
+   <hudHeight>200</hudHeight>
+</hud>
+
+<orbChunk>
+  <orbChunkFile>images/redorb.png</orbChunkFile>
+  <orbChunkSrcX>0</orbChunkSrcX>
+  <orbChunkSrcY>0</orbChunkSrcY>
+  <orbChunkWidth>32</orbChunkWidth>
+  <orbChunkHeight>32</orbChunkHeight>
+  <orbChunkLoc orbChunkX="10" orbChunkY="10"/>
+  <orbChunkSpeed orbChunkXspeed="250" orbChunkYspeed="250"/>
+  <orbChunkMaxSpeed orbChunkMaxXspeed="350" orbChunkMaxYspeed="300"/>
+  <orbChunkTransparency>true</orbChunkTransparency>
+  <orbChunkSize>100</orbChunkSize>
+  <orbChunkDistance>200</orbChunkDistance>
+</orbChunk>
+
+
+<alligatorChunkDistance>70</alligatorChunkDistance>
+<crabChunkDistance>100</crabChunkDistance>
+
+<bulletChunkDistance>100</bulletChunkDistance>
+
+<stone>
+  <stoneFile>images/stone.bmp</stoneFile>
+  <stoneSrcX>0</stoneSrcX>
+  <stoneSrcY>0</stoneSrcY>
+  <stoneWidth>32</stoneWidth>
+  <stoneHeight>32</stoneHeight>
+  <stoneLoc stoneX="760" stoneY="550"/>
+  <stoneSpeed stoneSpeedX="200" stoneSpeedY="0"/>
+  <stoneTransparency>true</stoneTransparency>
+  <stoneRandom>false</stoneRandom>
+  <stonespeed>200</stonespeed>
+</stone>
+
+</GameData>

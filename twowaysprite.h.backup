@@ -1,0 +1,57 @@
+#ifndef TWOWAYSPRITE__H
+#define TWOWAYSPRITE__H
+
+#include <string>
+#include <iostream>
+#include <vector>
+using std::string;
+
+#include "drawable.h"
+
+class TwoWaySprite : public Drawable {
+public:
+  TwoWaySprite(const string&);
+
+  TwoWaySprite(const std::string&, const Vector2f& pos, const Vector2f& vel,
+              const std::vector<Frame*>& fms);
+
+  TwoWaySprite(const TwoWaySprite&);
+  virtual ~TwoWaySprite() { }
+
+  virtual void draw() const;
+  virtual void update(Uint32 ticks);
+  virtual const Frame* getFrame() const {
+    return frames[currentFrame];
+  }
+
+  int getHeight(){
+     return frameHeight;
+  }
+
+  int getWidth(){
+     return frameWidth;
+  }
+
+  void goForward();
+  void goBack();
+  void goUp();
+  void goDown();
+  void stop();
+
+protected:
+  const std::vector<Frame *> frames;
+  int worldWidth;
+  int worldHeight;
+
+  float dt;
+  unsigned currentFrame;
+  unsigned numberOfFrames;
+  unsigned frameInterval;
+  float timeSinceLastFrame;
+  int frameWidth;
+  int frameHeight;
+  int speed;
+
+  void advanceFrame(Uint32 ticks);
+};
+#endif
